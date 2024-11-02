@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.calculator {
+    width: 350px;
+    height: 570px;
+   background-color: transparent;
+    margin: 0 auto;
+    top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: tan;
+}
+
+ #output {
+    text-align: right;
+    height: 45px;
+    margin: 10px 20px;
+    font-size: 30px;
+  }
+
+
+  .keyboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  .operator,.number,.symbole {
+   width: 50px;
+   height: 50px;
+   margin: 15px;
+   border-radius: 50%;
+   border-width: 0;
+   font-size: 25px;
+   cursor: pointer;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+}
+ .number,.symbole {
+  color: white;
+  background-color: #2d3436;
+ }
+
+ .operator {
+  color: white;
+  background-color: #00b894;
+}
+
+ .operator:active {
+  font-size: 20px;
+  opacity: 70%;
+}
+
+ .number:active,
+ .symbole:active {
+  font-size: 20px;
+  opacity: 70%;
+ }
+ .operator:focus,.number:focus,.symbole:focus {
+  outline: 0;
+}
